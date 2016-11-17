@@ -1,0 +1,79 @@
+.calcbody {
+  
+  position: relative;
+  top: 50px;
+  margin: auto;
+  width: 250px;
+  height: 370px;
+  background: rgb(40,40,40);
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: gray;
+  
+  -webkit-box-shadow: 12px 6px 22px -3px rgba(0,0,0,0.75);
+ -moz-box-shadow: 12px 6px 22px -3px rgba(0,0,0,0.75);
+ box-shadow: 12px 6px 22px -3px rgba(0,0,0,0.75);
+}
+
+.logo {
+  
+  margin: auto;
+  font-family: verdana;
+  font-weight: bold;
+  font-size: 24px;
+  padding: 10px 0 0 0;
+  color: rgb(220,220,220);
+  text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3);
+}
+  .cdisplay {
+    
+    padding: 3px 5px 0 0;
+    position: relative;
+    left: 25px;
+    top: 5px;
+    width: 200px;
+    height: 60px;
+    background: #abe29e;
+    border-radius: 5px;
+    font-family: orbitron;
+    font-size: 20px;
+  }
+
+.buttonarea {
+  position: relative;
+    left: 30px;
+    top: 20px;
+    width: 200px;
+}
+.cbutton {
+  
+  position: relative;
+  width: 40px;
+  margin: 0 5px 10px 0;
+  border-style: solid;
+  border-color: darkblue;
+  box-shadow: 0px 5px 2px -3px rgba(0,0,0,1);
+  background: #416fba;
+}
+
+.cbutton:hover {
+  
+  background: #416fba;
+}
+
+#zero {
+  
+  width: 89px;
+}
+
+#equals {
+  
+  
+}
